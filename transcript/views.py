@@ -118,6 +118,7 @@
 import os
 import re
 import whisper
+from datetime import datetime
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.conf import settings
@@ -135,7 +136,6 @@ model = whisper.load_model("base")
 
 # ================= Helper =================
 def normalize(word: str) -> str:
-    """Lowercase + remove punctuation"""
     return re.sub(r"[^\w]", "", word.lower())
 
 
@@ -163,15 +163,11 @@ def process_audio(request):
         for chunk in audio_file.chunks():
             f.write(chunk)
 
-    # -------- STEP 2: TRANSCRIBE AUDIO --------
-    result = model.transcribe(
-        audio_path,
-        word_timestamps=True
-    )
-
+    # -------- STEP 2: TRANSCRIBE --------
+    result = model.transcribe(audio_path, word_timestamps=True)
     language = result.get("language")
 
-    # -------- STEP 3: BUILD FULL TRANSCRIPT --------
+    # -------- STEP 3: FULL TRANSCRIPT --------
     transcript = []
     for seg in result["segments"]:
         for w in seg.get("words", []):
@@ -201,63 +197,71 @@ def process_audio(request):
             if normalize(w)
         }
 
-    # -------- STEP 5: FIND COMMON WORDS --------
+    # -------- STEP 5: COMMON WORDS --------
     common_words = [
         w for w in transcript if w["word"] in template_words
     ]
 
-    # 🔑 base name from audio (USED EVERYWHERE)
+    # -------- STEP 6: CREATE DB RECORD FIRST --------
     base_name = os.path.splitext(audio_file.name)[0]
 
-    # -------- STEP 6: SAVE COMMON WORDS TXT (UNIQUE) --------
+    insert_result = collection.insert_one({
+        "audio": audio_file.name,
+        "template": template_name,
+        "language": language,
+        "created_at": datetime.utcnow(),
+        "transcript": transcript,
+        "common_words": common_words,
+        "files": {}
+    })
+
+    record_id = str(insert_result.inserted_id)
+
+    # -------- STEP 7: SAVE UNIQUE TEXT FILE --------
     common_dir = os.path.join(settings.MEDIA_ROOT, "common_words")
     os.makedirs(common_dir, exist_ok=True)
 
-    common_txt_filename = f"{base_name}_common_words.txt"
+    common_txt_filename = f"{base_name}_{record_id}_common_words.txt"
     common_txt_path = os.path.join(common_dir, common_txt_filename)
 
     with open(common_txt_path, "w") as f:
         for w in common_words:
             f.write(f"{w['word']} -> {w['start']}s - {w['end']}s\n")
 
-    # -------- STEP 7: BUILD ONE COMBINED AUDIO (UNIQUE) --------
+    # -------- STEP 8: BUILD UNIQUE COMBINED AUDIO --------
     original_audio = AudioSegment.from_file(audio_path)
     combined_audio = AudioSegment.silent(duration=0)
 
     for w in common_words:
-        start_ms = int(w["start"] * 1000)
-        end_ms = int(w["end"] * 1000)
-        combined_audio += original_audio[start_ms:end_ms]
+        combined_audio += original_audio[
+            int(w["start"] * 1000):int(w["end"] * 1000)
+        ]
 
     clips_dir = os.path.join(settings.MEDIA_ROOT, "audio_clips")
     os.makedirs(clips_dir, exist_ok=True)
 
-    combined_audio_filename = f"{base_name}_common_words.wav"
+    combined_audio_filename = f"{base_name}_{record_id}_common_words.wav"
     combined_audio_path = os.path.join(
         clips_dir, combined_audio_filename
     )
 
     combined_audio.export(combined_audio_path, format="wav")
 
-    # -------- STEP 8: SAVE TO MONGODB --------
-    doc = {
-        "audio": audio_file.name,
-        "language": language,
-        "transcript": transcript,
-        "common_words": common_words,
-        "files": {
-            "common_audio": combined_audio_filename,
-            "common_text": common_txt_filename
-        }
-    }
+    # -------- STEP 9: UPDATE DB WITH FILE NAMES --------
+    collection.update_one(
+        {"_id": insert_result.inserted_id},
+        {"$set": {
+            "files.common_audio": combined_audio_filename,
+            "files.common_text": common_txt_filename
+        }}
+    )
 
-    inserted = collection.insert_one(doc)
-
-    # -------- STEP 9: RESPONSE --------
+    # -------- STEP 10: RESPONSE --------
     return JsonResponse(
         {
-            "_id": str(inserted.inserted_id),
+            "_id": record_id,
             "audio": audio_file.name,
+            "template": template_name,
             "language": language,
             "transcript": transcript,
             "common_words": common_words,
