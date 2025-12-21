@@ -1,0 +1,1162 @@
+{
+  "text": " Good job. Glad to see things are going well and business is starting to pick up. Andrea told me about your outstanding numbers on Tuesday. Keep up the good work. Now to other business, I am going to suggest a payment schedule for the outstanding money that is due. One, can you pay the balance of the license agreement as soon as possible? Two, I suggest we set up or you suggest what you can pay on the back rawties. What do you feel comfortable with? Paying every two weeks. Every month. I would like to keep, I would like to catch up and maintain current rawties. So if we can start current rawties and maintain them every two weeks as all stores are required to do, I would appreciate it. Let me know if this works for you. Thanks.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 1.080000000000001,
+      "end": 10.82,
+      "text": " Good job. Glad to see things are going well and business is starting to pick up.",
+      "tokens": [
+        50364,
+        2205,
+        1691,
+        13,
+        28301,
+        281,
+        536,
+        721,
+        366,
+        516,
+        731,
+        293,
+        1606,
+        307,
+        2891,
+        281,
+        1888,
+        493,
+        13,
+        50932
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.34211580753326415,
+      "compression_ratio": 1.2777777777777777,
+      "no_speech_prob": 0.2010626345872879,
+      "words": [
+        {
+          "word": " Good",
+          "start": 1.080000000000001,
+          "end": 1.82,
+          "probability": 0.2053668051958084
+        },
+        {
+          "word": " job.",
+          "start": 1.82,
+          "end": 2.18,
+          "probability": 0.8234588503837585
+        },
+        {
+          "word": " Glad",
+          "start": 5.66,
+          "end": 6.4,
+          "probability": 0.9729337096214294
+        },
+        {
+          "word": " to",
+          "start": 6.4,
+          "end": 6.64,
+          "probability": 0.9980455636978149
+        },
+        {
+          "word": " see",
+          "start": 6.64,
+          "end": 6.86,
+          "probability": 0.9983173608779907
+        },
+        {
+          "word": " things",
+          "start": 6.86,
+          "end": 7.3,
+          "probability": 0.9676149487495422
+        },
+        {
+          "word": " are",
+          "start": 7.3,
+          "end": 7.46,
+          "probability": 0.48870429396629333
+        },
+        {
+          "word": " going",
+          "start": 7.46,
+          "end": 7.74,
+          "probability": 0.9951440095901489
+        },
+        {
+          "word": " well",
+          "start": 7.74,
+          "end": 8.16,
+          "probability": 0.9939237236976624
+        },
+        {
+          "word": " and",
+          "start": 8.16,
+          "end": 9.24,
+          "probability": 0.3699577748775482
+        },
+        {
+          "word": " business",
+          "start": 9.24,
+          "end": 9.62,
+          "probability": 0.8020169138908386
+        },
+        {
+          "word": " is",
+          "start": 9.62,
+          "end": 9.8,
+          "probability": 0.9557234048843384
+        },
+        {
+          "word": " starting",
+          "start": 9.8,
+          "end": 10.12,
+          "probability": 0.9966647028923035
+        },
+        {
+          "word": " to",
+          "start": 10.12,
+          "end": 10.22,
+          "probability": 0.9980362057685852
+        },
+        {
+          "word": " pick",
+          "start": 10.22,
+          "end": 10.42,
+          "probability": 0.9855219125747681
+        },
+        {
+          "word": " up.",
+          "start": 10.42,
+          "end": 10.82,
+          "probability": 0.9900122880935669
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 12.3,
+      "end": 20.06,
+      "text": " Andrea told me about your outstanding numbers on Tuesday. Keep up the good work.",
+      "tokens": [
+        50932,
+        24215,
+        1907,
+        385,
+        466,
+        428,
+        14485,
+        3547,
+        322,
+        10017,
+        13,
+        5527,
+        493,
+        264,
+        665,
+        589,
+        13,
+        51462
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.34211580753326415,
+      "compression_ratio": 1.2777777777777777,
+      "no_speech_prob": 0.2010626345872879,
+      "words": [
+        {
+          "word": " Andrea",
+          "start": 12.3,
+          "end": 12.6,
+          "probability": 0.9301435947418213
+        },
+        {
+          "word": " told",
+          "start": 12.6,
+          "end": 12.9,
+          "probability": 0.8919640779495239
+        },
+        {
+          "word": " me",
+          "start": 12.9,
+          "end": 13.06,
+          "probability": 0.9960145950317383
+        },
+        {
+          "word": " about",
+          "start": 13.06,
+          "end": 13.3,
+          "probability": 0.992284893989563
+        },
+        {
+          "word": " your",
+          "start": 13.3,
+          "end": 13.58,
+          "probability": 0.9871570467948914
+        },
+        {
+          "word": " outstanding",
+          "start": 13.58,
+          "end": 15.1,
+          "probability": 0.9732295274734497
+        },
+        {
+          "word": " numbers",
+          "start": 15.1,
+          "end": 15.96,
+          "probability": 0.9859948754310608
+        },
+        {
+          "word": " on",
+          "start": 15.96,
+          "end": 16.82,
+          "probability": 0.9874208569526672
+        },
+        {
+          "word": " Tuesday.",
+          "start": 16.82,
+          "end": 17.38,
+          "probability": 0.9955688118934631
+        },
+        {
+          "word": " Keep",
+          "start": 18.44,
+          "end": 18.98,
+          "probability": 0.9650120139122009
+        },
+        {
+          "word": " up",
+          "start": 18.98,
+          "end": 19.22,
+          "probability": 0.9951426982879639
+        },
+        {
+          "word": " the",
+          "start": 19.22,
+          "end": 19.42,
+          "probability": 0.8998157382011414
+        },
+        {
+          "word": " good",
+          "start": 19.42,
+          "end": 19.6,
+          "probability": 0.9962963461875916
+        },
+        {
+          "word": " work.",
+          "start": 19.6,
+          "end": 20.06,
+          "probability": 0.996401309967041
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 2006,
+      "start": 21.759999999999998,
+      "end": 33.78,
+      "text": " Now to other business, I am going to suggest a payment schedule for the outstanding",
+      "tokens": [
+        50364,
+        823,
+        281,
+        661,
+        1606,
+        11,
+        286,
+        669,
+        516,
+        281,
+        3402,
+        257,
+        10224,
+        7567,
+        337,
+        264,
+        14485,
+        51058
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.31095108985900877,
+      "compression_ratio": 1.064102564102564,
+      "no_speech_prob": 0.1269049197435379,
+      "words": [
+        {
+          "word": " Now",
+          "start": 21.759999999999998,
+          "end": 23.0,
+          "probability": 0.7847875356674194
+        },
+        {
+          "word": " to",
+          "start": 23.0,
+          "end": 23.24,
+          "probability": 0.6955591440200806
+        },
+        {
+          "word": " other",
+          "start": 23.24,
+          "end": 23.5,
+          "probability": 0.9640935659408569
+        },
+        {
+          "word": " business,",
+          "start": 23.5,
+          "end": 23.92,
+          "probability": 0.9700460433959961
+        },
+        {
+          "word": " I",
+          "start": 24.88,
+          "end": 25.92,
+          "probability": 0.9794620871543884
+        },
+        {
+          "word": " am",
+          "start": 25.92,
+          "end": 26.78,
+          "probability": 0.9352260231971741
+        },
+        {
+          "word": " going",
+          "start": 26.78,
+          "end": 26.96,
+          "probability": 0.6017928123474121
+        },
+        {
+          "word": " to",
+          "start": 26.96,
+          "end": 27.16,
+          "probability": 0.9950828552246094
+        },
+        {
+          "word": " suggest",
+          "start": 27.16,
+          "end": 27.9,
+          "probability": 0.988874077796936
+        },
+        {
+          "word": " a",
+          "start": 27.9,
+          "end": 28.52,
+          "probability": 0.9808525443077087
+        },
+        {
+          "word": " payment",
+          "start": 28.52,
+          "end": 29.1,
+          "probability": 0.979937732219696
+        },
+        {
+          "word": " schedule",
+          "start": 29.1,
+          "end": 29.72,
+          "probability": 0.9707618951797485
+        },
+        {
+          "word": " for",
+          "start": 29.72,
+          "end": 32.82,
+          "probability": 0.936466634273529
+        },
+        {
+          "word": " the",
+          "start": 32.82,
+          "end": 33.06,
+          "probability": 0.7390103936195374
+        },
+        {
+          "word": " outstanding",
+          "start": 33.06,
+          "end": 33.78,
+          "probability": 0.9642497301101685
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 3378,
+      "start": 33.78,
+      "end": 48.66,
+      "text": " money that is due. One, can you pay the balance of the license agreement as soon as possible?",
+      "tokens": [
+        50364,
+        1460,
+        300,
+        307,
+        3462,
+        13,
+        1485,
+        11,
+        393,
+        291,
+        1689,
+        264,
+        4772,
+        295,
+        264,
+        10476,
+        8106,
+        382,
+        2321,
+        382,
+        1944,
+        30,
+        51140
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3289805473165309,
+      "compression_ratio": 1.368,
+      "no_speech_prob": 0.7189720273017883,
+      "words": [
+        {
+          "word": " money",
+          "start": 33.78,
+          "end": 34.54,
+          "probability": 0.08650673925876617
+        },
+        {
+          "word": " that",
+          "start": 34.54,
+          "end": 35.06,
+          "probability": 0.6171865463256836
+        },
+        {
+          "word": " is",
+          "start": 35.06,
+          "end": 35.28,
+          "probability": 0.890275239944458
+        },
+        {
+          "word": " due.",
+          "start": 35.28,
+          "end": 35.52,
+          "probability": 0.7949497103691101
+        },
+        {
+          "word": " One,",
+          "start": 36.88,
+          "end": 37.58,
+          "probability": 0.4046720564365387
+        },
+        {
+          "word": " can",
+          "start": 38.9,
+          "end": 39.22,
+          "probability": 0.8854773044586182
+        },
+        {
+          "word": " you",
+          "start": 39.22,
+          "end": 39.54,
+          "probability": 0.9971221089363098
+        },
+        {
+          "word": " pay",
+          "start": 39.54,
+          "end": 40.0,
+          "probability": 0.9985608458518982
+        },
+        {
+          "word": " the",
+          "start": 40.0,
+          "end": 41.44,
+          "probability": 0.990494966506958
+        },
+        {
+          "word": " balance",
+          "start": 41.44,
+          "end": 41.88,
+          "probability": 0.9758411049842834
+        },
+        {
+          "word": " of",
+          "start": 41.88,
+          "end": 42.46,
+          "probability": 0.9929777979850769
+        },
+        {
+          "word": " the",
+          "start": 42.46,
+          "end": 42.68,
+          "probability": 0.9864230751991272
+        },
+        {
+          "word": " license",
+          "start": 42.68,
+          "end": 43.16,
+          "probability": 0.9442065954208374
+        },
+        {
+          "word": " agreement",
+          "start": 43.16,
+          "end": 44.0,
+          "probability": 0.9971580505371094
+        },
+        {
+          "word": " as",
+          "start": 44.0,
+          "end": 47.54,
+          "probability": 0.7857697010040283
+        },
+        {
+          "word": " soon",
+          "start": 47.54,
+          "end": 47.86,
+          "probability": 0.9966206550598145
+        },
+        {
+          "word": " as",
+          "start": 47.86,
+          "end": 48.16,
+          "probability": 0.9986515641212463
+        },
+        {
+          "word": " possible?",
+          "start": 48.16,
+          "end": 48.66,
+          "probability": 0.9987047910690308
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 3378,
+      "start": 49.46,
+      "end": 59.56,
+      "text": " Two, I suggest we set up or you suggest what you can pay on the back rawties.",
+      "tokens": [
+        51140,
+        4453,
+        11,
+        286,
+        3402,
+        321,
+        992,
+        493,
+        420,
+        291,
+        3402,
+        437,
+        291,
+        393,
+        1689,
+        322,
+        264,
+        646,
+        8936,
+        6097,
+        13,
+        51644
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3289805473165309,
+      "compression_ratio": 1.368,
+      "no_speech_prob": 0.7189720273017883,
+      "words": [
+        {
+          "word": " Two,",
+          "start": 49.46,
+          "end": 50.46,
+          "probability": 0.9139952063560486
+        },
+        {
+          "word": " I",
+          "start": 51.6,
+          "end": 51.98,
+          "probability": 0.9534326195716858
+        },
+        {
+          "word": " suggest",
+          "start": 51.98,
+          "end": 52.36,
+          "probability": 0.9964788556098938
+        },
+        {
+          "word": " we",
+          "start": 52.36,
+          "end": 52.9,
+          "probability": 0.955995500087738
+        },
+        {
+          "word": " set",
+          "start": 52.9,
+          "end": 53.52,
+          "probability": 0.8251383304595947
+        },
+        {
+          "word": " up",
+          "start": 53.52,
+          "end": 53.72,
+          "probability": 0.9745308756828308
+        },
+        {
+          "word": " or",
+          "start": 53.72,
+          "end": 55.6,
+          "probability": 0.5797421932220459
+        },
+        {
+          "word": " you",
+          "start": 55.6,
+          "end": 55.78,
+          "probability": 0.9519398212432861
+        },
+        {
+          "word": " suggest",
+          "start": 55.78,
+          "end": 56.3,
+          "probability": 0.9839890599250793
+        },
+        {
+          "word": " what",
+          "start": 56.3,
+          "end": 56.92,
+          "probability": 0.6794127821922302
+        },
+        {
+          "word": " you",
+          "start": 56.92,
+          "end": 57.08,
+          "probability": 0.9573458433151245
+        },
+        {
+          "word": " can",
+          "start": 57.08,
+          "end": 57.22,
+          "probability": 0.9855340719223022
+        },
+        {
+          "word": " pay",
+          "start": 57.22,
+          "end": 57.5,
+          "probability": 0.9919185042381287
+        },
+        {
+          "word": " on",
+          "start": 57.5,
+          "end": 57.8,
+          "probability": 0.9773289561271667
+        },
+        {
+          "word": " the",
+          "start": 57.8,
+          "end": 57.96,
+          "probability": 0.9966515898704529
+        },
+        {
+          "word": " back",
+          "start": 57.96,
+          "end": 58.46,
+          "probability": 0.9827641844749451
+        },
+        {
+          "word": " rawties.",
+          "start": 58.46,
+          "end": 59.56,
+          "probability": 0.5892441123723984
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 5956,
+      "start": 61.88000000000001,
+      "end": 85.26,
+      "text": " What do you feel comfortable with? Paying every two weeks. Every month. I would like to keep,",
+      "tokens": [
+        50364,
+        708,
+        360,
+        291,
+        841,
+        4619,
+        365,
+        30,
+        11431,
+        278,
+        633,
+        732,
+        3259,
+        13,
+        2048,
+        1618,
+        13,
+        286,
+        576,
+        411,
+        281,
+        1066,
+        11,
+        51650
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3765716185936561,
+      "compression_ratio": 1.0449438202247192,
+      "no_speech_prob": 0.788902759552002,
+      "words": [
+        {
+          "word": " What",
+          "start": 61.88000000000001,
+          "end": 62.84,
+          "probability": 0.5553968548774719
+        },
+        {
+          "word": " do",
+          "start": 62.84,
+          "end": 62.98,
+          "probability": 0.961915910243988
+        },
+        {
+          "word": " you",
+          "start": 62.98,
+          "end": 63.06,
+          "probability": 0.9963322281837463
+        },
+        {
+          "word": " feel",
+          "start": 63.06,
+          "end": 63.26,
+          "probability": 0.9913231134414673
+        },
+        {
+          "word": " comfortable",
+          "start": 63.26,
+          "end": 63.68,
+          "probability": 0.9923877716064453
+        },
+        {
+          "word": " with?",
+          "start": 63.68,
+          "end": 64.34,
+          "probability": 0.9959678649902344
+        },
+        {
+          "word": " Paying",
+          "start": 65.78,
+          "end": 66.74,
+          "probability": 0.49712460301816463
+        },
+        {
+          "word": " every",
+          "start": 66.74,
+          "end": 71.12,
+          "probability": 0.31221315264701843
+        },
+        {
+          "word": " two",
+          "start": 71.12,
+          "end": 74.1,
+          "probability": 0.8795493841171265
+        },
+        {
+          "word": " weeks.",
+          "start": 74.1,
+          "end": 74.54,
+          "probability": 0.9973136782646179
+        },
+        {
+          "word": " Every",
+          "start": 80.2,
+          "end": 81.16,
+          "probability": 0.9622970223426819
+        },
+        {
+          "word": " month.",
+          "start": 81.16,
+          "end": 81.64,
+          "probability": 0.9874392151832581
+        },
+        {
+          "word": " I",
+          "start": 83.5,
+          "end": 84.46,
+          "probability": 0.9922845363616943
+        },
+        {
+          "word": " would",
+          "start": 84.46,
+          "end": 84.58,
+          "probability": 0.983887255191803
+        },
+        {
+          "word": " like",
+          "start": 84.58,
+          "end": 84.8,
+          "probability": 0.9983626008033752
+        },
+        {
+          "word": " to",
+          "start": 84.8,
+          "end": 85.0,
+          "probability": 0.9973188042640686
+        },
+        {
+          "word": " keep,",
+          "start": 85.0,
+          "end": 85.26,
+          "probability": 0.9922648668289185
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 8526,
+      "start": 85.26,
+      "end": 104.74,
+      "text": " I would like to catch up and maintain current rawties. So if we can start current rawties and maintain",
+      "tokens": [
+        50364,
+        286,
+        576,
+        411,
+        281,
+        3745,
+        493,
+        293,
+        6909,
+        2190,
+        8936,
+        6097,
+        13,
+        407,
+        498,
+        321,
+        393,
+        722,
+        2190,
+        8936,
+        6097,
+        293,
+        6909,
+        51344
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.31433351223285383,
+      "compression_ratio": 1.2911392405063291,
+      "no_speech_prob": 0.19249917566776276,
+      "words": [
+        {
+          "word": " I",
+          "start": 85.26,
+          "end": 87.14,
+          "probability": 0.2890321612358093
+        },
+        {
+          "word": " would",
+          "start": 87.14,
+          "end": 87.22,
+          "probability": 0.806506872177124
+        },
+        {
+          "word": " like",
+          "start": 87.22,
+          "end": 87.52,
+          "probability": 0.99244225025177
+        },
+        {
+          "word": " to",
+          "start": 87.52,
+          "end": 87.86,
+          "probability": 0.9928410053253174
+        },
+        {
+          "word": " catch",
+          "start": 87.86,
+          "end": 88.28,
+          "probability": 0.9327069520950317
+        },
+        {
+          "word": " up",
+          "start": 88.28,
+          "end": 88.64,
+          "probability": 0.9939957857131958
+        },
+        {
+          "word": " and",
+          "start": 88.64,
+          "end": 90.98,
+          "probability": 0.9213285446166992
+        },
+        {
+          "word": " maintain",
+          "start": 90.98,
+          "end": 91.52,
+          "probability": 0.9862999320030212
+        },
+        {
+          "word": " current",
+          "start": 91.52,
+          "end": 92.04,
+          "probability": 0.985872745513916
+        },
+        {
+          "word": " rawties.",
+          "start": 92.04,
+          "end": 92.74,
+          "probability": 0.4046566039323807
+        },
+        {
+          "word": " So",
+          "start": 94.22,
+          "end": 95.3,
+          "probability": 0.8490977883338928
+        },
+        {
+          "word": " if",
+          "start": 95.3,
+          "end": 95.54,
+          "probability": 0.8087365031242371
+        },
+        {
+          "word": " we",
+          "start": 95.54,
+          "end": 95.7,
+          "probability": 0.9930611252784729
+        },
+        {
+          "word": " can",
+          "start": 95.7,
+          "end": 95.94,
+          "probability": 0.9867416024208069
+        },
+        {
+          "word": " start",
+          "start": 95.94,
+          "end": 96.48,
+          "probability": 0.9885772466659546
+        },
+        {
+          "word": " current",
+          "start": 96.48,
+          "end": 97.04,
+          "probability": 0.9918245673179626
+        },
+        {
+          "word": " rawties",
+          "start": 97.04,
+          "end": 98.06,
+          "probability": 0.9851675033569336
+        },
+        {
+          "word": " and",
+          "start": 98.06,
+          "end": 100.58,
+          "probability": 0.7736042141914368
+        },
+        {
+          "word": " maintain",
+          "start": 100.58,
+          "end": 104.74,
+          "probability": 0.9909716844558716
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 10474,
+      "start": 104.74,
+      "end": 116.38,
+      "text": " them every two weeks as all stores are required to do, I would appreciate it. Let me know if this works for you.",
+      "tokens": [
+        50364,
+        552,
+        633,
+        732,
+        3259,
+        382,
+        439,
+        9512,
+        366,
+        4739,
+        281,
+        360,
+        11,
+        286,
+        576,
+        4449,
+        309,
+        13,
+        961,
+        385,
+        458,
+        498,
+        341,
+        1985,
+        337,
+        291,
+        13,
+        50968
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.36830968567819306,
+      "compression_ratio": 1.1650485436893203,
+      "no_speech_prob": 0.3357161581516266,
+      "words": [
+        {
+          "word": " them",
+          "start": 104.74,
+          "end": 105.28,
+          "probability": 0.013163145631551743
+        },
+        {
+          "word": " every",
+          "start": 105.28,
+          "end": 107.32,
+          "probability": 0.9123284220695496
+        },
+        {
+          "word": " two",
+          "start": 107.32,
+          "end": 107.54,
+          "probability": 0.8792657852172852
+        },
+        {
+          "word": " weeks",
+          "start": 107.54,
+          "end": 107.88,
+          "probability": 0.9979547262191772
+        },
+        {
+          "word": " as",
+          "start": 107.88,
+          "end": 108.66,
+          "probability": 0.7953181862831116
+        },
+        {
+          "word": " all",
+          "start": 108.66,
+          "end": 109.16,
+          "probability": 0.9123256206512451
+        },
+        {
+          "word": " stores",
+          "start": 109.16,
+          "end": 109.66,
+          "probability": 0.992588222026825
+        },
+        {
+          "word": " are",
+          "start": 109.66,
+          "end": 110.72,
+          "probability": 0.9868398904800415
+        },
+        {
+          "word": " required",
+          "start": 110.72,
+          "end": 111.06,
+          "probability": 0.9981016516685486
+        },
+        {
+          "word": " to",
+          "start": 111.06,
+          "end": 111.38,
+          "probability": 0.9982738494873047
+        },
+        {
+          "word": " do,",
+          "start": 111.38,
+          "end": 111.66,
+          "probability": 0.9982343912124634
+        },
+        {
+          "word": " I",
+          "start": 112.1,
+          "end": 113.06,
+          "probability": 0.9610971808433533
+        },
+        {
+          "word": " would",
+          "start": 113.06,
+          "end": 113.22,
+          "probability": 0.9492002129554749
+        },
+        {
+          "word": " appreciate",
+          "start": 113.22,
+          "end": 113.7,
+          "probability": 0.998694121837616
+        },
+        {
+          "word": " it.",
+          "start": 113.7,
+          "end": 114.2,
+          "probability": 0.9961399435997009
+        },
+        {
+          "word": " Let",
+          "start": 115.04,
+          "end": 115.14,
+          "probability": 0.9013648629188538
+        },
+        {
+          "word": " me",
+          "start": 115.14,
+          "end": 115.28,
+          "probability": 0.9977670907974243
+        },
+        {
+          "word": " know",
+          "start": 115.28,
+          "end": 115.44,
+          "probability": 0.9960747957229614
+        },
+        {
+          "word": " if",
+          "start": 115.44,
+          "end": 115.58,
+          "probability": 0.9550672769546509
+        },
+        {
+          "word": " this",
+          "start": 115.58,
+          "end": 115.74,
+          "probability": 0.9981576800346375
+        },
+        {
+          "word": " works",
+          "start": 115.74,
+          "end": 115.96,
+          "probability": 0.9888779520988464
+        },
+        {
+          "word": " for",
+          "start": 115.96,
+          "end": 116.16,
+          "probability": 0.9777662754058838
+        },
+        {
+          "word": " you.",
+          "start": 116.16,
+          "end": 116.38,
+          "probability": 0.9989977478981018
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 10474,
+      "start": 119.38,
+      "end": 120.16,
+      "text": " Thanks.",
+      "tokens": [
+        50968,
+        2561,
+        13,
+        51168
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.36830968567819306,
+      "compression_ratio": 1.1650485436893203,
+      "no_speech_prob": 0.3357161581516266,
+      "words": [
+        {
+          "word": " Thanks.",
+          "start": 119.38,
+          "end": 120.16,
+          "probability": 0.9694515466690063
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

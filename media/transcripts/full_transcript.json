@@ -1,0 +1,705 @@
+{
+  "language": "en",
+  "words": [
+    {
+      "word": "good",
+      "start": 1.08,
+      "end": 1.82
+    },
+    {
+      "word": "job",
+      "start": 1.82,
+      "end": 2.18
+    },
+    {
+      "word": "glad",
+      "start": 5.66,
+      "end": 6.4
+    },
+    {
+      "word": "to",
+      "start": 6.4,
+      "end": 6.64
+    },
+    {
+      "word": "see",
+      "start": 6.64,
+      "end": 6.86
+    },
+    {
+      "word": "things",
+      "start": 6.86,
+      "end": 7.3
+    },
+    {
+      "word": "are",
+      "start": 7.3,
+      "end": 7.46
+    },
+    {
+      "word": "going",
+      "start": 7.46,
+      "end": 7.74
+    },
+    {
+      "word": "well",
+      "start": 7.74,
+      "end": 8.16
+    },
+    {
+      "word": "and",
+      "start": 8.16,
+      "end": 9.24
+    },
+    {
+      "word": "business",
+      "start": 9.24,
+      "end": 9.62
+    },
+    {
+      "word": "is",
+      "start": 9.62,
+      "end": 9.8
+    },
+    {
+      "word": "starting",
+      "start": 9.8,
+      "end": 10.12
+    },
+    {
+      "word": "to",
+      "start": 10.12,
+      "end": 10.22
+    },
+    {
+      "word": "pick",
+      "start": 10.22,
+      "end": 10.42
+    },
+    {
+      "word": "up",
+      "start": 10.42,
+      "end": 10.82
+    },
+    {
+      "word": "andrea",
+      "start": 12.3,
+      "end": 12.6
+    },
+    {
+      "word": "told",
+      "start": 12.6,
+      "end": 12.9
+    },
+    {
+      "word": "me",
+      "start": 12.9,
+      "end": 13.06
+    },
+    {
+      "word": "about",
+      "start": 13.06,
+      "end": 13.3
+    },
+    {
+      "word": "your",
+      "start": 13.3,
+      "end": 13.58
+    },
+    {
+      "word": "outstanding",
+      "start": 13.58,
+      "end": 15.1
+    },
+    {
+      "word": "numbers",
+      "start": 15.1,
+      "end": 15.96
+    },
+    {
+      "word": "on",
+      "start": 15.96,
+      "end": 16.82
+    },
+    {
+      "word": "tuesday",
+      "start": 16.82,
+      "end": 17.38
+    },
+    {
+      "word": "keep",
+      "start": 18.44,
+      "end": 18.98
+    },
+    {
+      "word": "up",
+      "start": 18.98,
+      "end": 19.22
+    },
+    {
+      "word": "the",
+      "start": 19.22,
+      "end": 19.42
+    },
+    {
+      "word": "good",
+      "start": 19.42,
+      "end": 19.6
+    },
+    {
+      "word": "work",
+      "start": 19.6,
+      "end": 20.06
+    },
+    {
+      "word": "now",
+      "start": 21.76,
+      "end": 23.0
+    },
+    {
+      "word": "to",
+      "start": 23.0,
+      "end": 23.24
+    },
+    {
+      "word": "other",
+      "start": 23.24,
+      "end": 23.5
+    },
+    {
+      "word": "business",
+      "start": 23.5,
+      "end": 23.92
+    },
+    {
+      "word": "i",
+      "start": 24.88,
+      "end": 25.92
+    },
+    {
+      "word": "am",
+      "start": 25.92,
+      "end": 26.78
+    },
+    {
+      "word": "going",
+      "start": 26.78,
+      "end": 26.96
+    },
+    {
+      "word": "to",
+      "start": 26.96,
+      "end": 27.16
+    },
+    {
+      "word": "suggest",
+      "start": 27.16,
+      "end": 27.9
+    },
+    {
+      "word": "a",
+      "start": 27.9,
+      "end": 28.52
+    },
+    {
+      "word": "payment",
+      "start": 28.52,
+      "end": 29.1
+    },
+    {
+      "word": "schedule",
+      "start": 29.1,
+      "end": 29.72
+    },
+    {
+      "word": "for",
+      "start": 29.72,
+      "end": 32.82
+    },
+    {
+      "word": "the",
+      "start": 32.82,
+      "end": 33.06
+    },
+    {
+      "word": "outstanding",
+      "start": 33.06,
+      "end": 33.78
+    },
+    {
+      "word": "money",
+      "start": 33.78,
+      "end": 34.54
+    },
+    {
+      "word": "that",
+      "start": 34.54,
+      "end": 35.06
+    },
+    {
+      "word": "is",
+      "start": 35.06,
+      "end": 35.28
+    },
+    {
+      "word": "due",
+      "start": 35.28,
+      "end": 35.52
+    },
+    {
+      "word": "one",
+      "start": 36.88,
+      "end": 37.58
+    },
+    {
+      "word": "can",
+      "start": 38.9,
+      "end": 39.22
+    },
+    {
+      "word": "you",
+      "start": 39.22,
+      "end": 39.54
+    },
+    {
+      "word": "pay",
+      "start": 39.54,
+      "end": 40.0
+    },
+    {
+      "word": "the",
+      "start": 40.0,
+      "end": 41.44
+    },
+    {
+      "word": "balance",
+      "start": 41.44,
+      "end": 41.88
+    },
+    {
+      "word": "of",
+      "start": 41.88,
+      "end": 42.46
+    },
+    {
+      "word": "the",
+      "start": 42.46,
+      "end": 42.68
+    },
+    {
+      "word": "license",
+      "start": 42.68,
+      "end": 43.16
+    },
+    {
+      "word": "agreement",
+      "start": 43.16,
+      "end": 44.0
+    },
+    {
+      "word": "as",
+      "start": 44.0,
+      "end": 47.54
+    },
+    {
+      "word": "soon",
+      "start": 47.54,
+      "end": 47.86
+    },
+    {
+      "word": "as",
+      "start": 47.86,
+      "end": 48.16
+    },
+    {
+      "word": "possible",
+      "start": 48.16,
+      "end": 48.66
+    },
+    {
+      "word": "two",
+      "start": 49.46,
+      "end": 50.46
+    },
+    {
+      "word": "i",
+      "start": 51.6,
+      "end": 51.98
+    },
+    {
+      "word": "suggest",
+      "start": 51.98,
+      "end": 52.36
+    },
+    {
+      "word": "we",
+      "start": 52.36,
+      "end": 52.9
+    },
+    {
+      "word": "set",
+      "start": 52.9,
+      "end": 53.52
+    },
+    {
+      "word": "up",
+      "start": 53.52,
+      "end": 53.72
+    },
+    {
+      "word": "or",
+      "start": 53.72,
+      "end": 55.6
+    },
+    {
+      "word": "you",
+      "start": 55.6,
+      "end": 55.78
+    },
+    {
+      "word": "suggest",
+      "start": 55.78,
+      "end": 56.3
+    },
+    {
+      "word": "what",
+      "start": 56.3,
+      "end": 56.92
+    },
+    {
+      "word": "you",
+      "start": 56.92,
+      "end": 57.08
+    },
+    {
+      "word": "can",
+      "start": 57.08,
+      "end": 57.22
+    },
+    {
+      "word": "pay",
+      "start": 57.22,
+      "end": 57.5
+    },
+    {
+      "word": "on",
+      "start": 57.5,
+      "end": 57.8
+    },
+    {
+      "word": "the",
+      "start": 57.8,
+      "end": 57.96
+    },
+    {
+      "word": "back",
+      "start": 57.96,
+      "end": 58.46
+    },
+    {
+      "word": "rawties",
+      "start": 58.46,
+      "end": 59.56
+    },
+    {
+      "word": "what",
+      "start": 61.88,
+      "end": 62.84
+    },
+    {
+      "word": "do",
+      "start": 62.84,
+      "end": 62.98
+    },
+    {
+      "word": "you",
+      "start": 62.98,
+      "end": 63.06
+    },
+    {
+      "word": "feel",
+      "start": 63.06,
+      "end": 63.26
+    },
+    {
+      "word": "comfortable",
+      "start": 63.26,
+      "end": 63.68
+    },
+    {
+      "word": "with",
+      "start": 63.68,
+      "end": 64.34
+    },
+    {
+      "word": "paying",
+      "start": 65.78,
+      "end": 66.74
+    },
+    {
+      "word": "every",
+      "start": 66.74,
+      "end": 71.12
+    },
+    {
+      "word": "two",
+      "start": 71.12,
+      "end": 74.1
+    },
+    {
+      "word": "weeks",
+      "start": 74.1,
+      "end": 74.54
+    },
+    {
+      "word": "every",
+      "start": 80.2,
+      "end": 81.16
+    },
+    {
+      "word": "month",
+      "start": 81.16,
+      "end": 81.64
+    },
+    {
+      "word": "i",
+      "start": 83.5,
+      "end": 84.46
+    },
+    {
+      "word": "would",
+      "start": 84.46,
+      "end": 84.58
+    },
+    {
+      "word": "like",
+      "start": 84.58,
+      "end": 84.8
+    },
+    {
+      "word": "to",
+      "start": 84.8,
+      "end": 85.0
+    },
+    {
+      "word": "keep",
+      "start": 85.0,
+      "end": 85.26
+    },
+    {
+      "word": "i",
+      "start": 85.26,
+      "end": 87.14
+    },
+    {
+      "word": "would",
+      "start": 87.14,
+      "end": 87.22
+    },
+    {
+      "word": "like",
+      "start": 87.22,
+      "end": 87.52
+    },
+    {
+      "word": "to",
+      "start": 87.52,
+      "end": 87.86
+    },
+    {
+      "word": "catch",
+      "start": 87.86,
+      "end": 88.28
+    },
+    {
+      "word": "up",
+      "start": 88.28,
+      "end": 88.64
+    },
+    {
+      "word": "and",
+      "start": 88.64,
+      "end": 90.98
+    },
+    {
+      "word": "maintain",
+      "start": 90.98,
+      "end": 91.52
+    },
+    {
+      "word": "current",
+      "start": 91.52,
+      "end": 92.04
+    },
+    {
+      "word": "rawties",
+      "start": 92.04,
+      "end": 92.74
+    },
+    {
+      "word": "so",
+      "start": 94.22,
+      "end": 95.3
+    },
+    {
+      "word": "if",
+      "start": 95.3,
+      "end": 95.54
+    },
+    {
+      "word": "we",
+      "start": 95.54,
+      "end": 95.7
+    },
+    {
+      "word": "can",
+      "start": 95.7,
+      "end": 95.94
+    },
+    {
+      "word": "start",
+      "start": 95.94,
+      "end": 96.48
+    },
+    {
+      "word": "current",
+      "start": 96.48,
+      "end": 97.04
+    },
+    {
+      "word": "rawties",
+      "start": 97.04,
+      "end": 98.06
+    },
+    {
+      "word": "and",
+      "start": 98.06,
+      "end": 100.58
+    },
+    {
+      "word": "maintain",
+      "start": 100.58,
+      "end": 104.74
+    },
+    {
+      "word": "them",
+      "start": 104.74,
+      "end": 105.28
+    },
+    {
+      "word": "every",
+      "start": 105.28,
+      "end": 107.32
+    },
+    {
+      "word": "two",
+      "start": 107.32,
+      "end": 107.54
+    },
+    {
+      "word": "weeks",
+      "start": 107.54,
+      "end": 107.88
+    },
+    {
+      "word": "as",
+      "start": 107.88,
+      "end": 108.66
+    },
+    {
+      "word": "all",
+      "start": 108.66,
+      "end": 109.16
+    },
+    {
+      "word": "stores",
+      "start": 109.16,
+      "end": 109.66
+    },
+    {
+      "word": "are",
+      "start": 109.66,
+      "end": 110.72
+    },
+    {
+      "word": "required",
+      "start": 110.72,
+      "end": 111.06
+    },
+    {
+      "word": "to",
+      "start": 111.06,
+      "end": 111.38
+    },
+    {
+      "word": "do",
+      "start": 111.38,
+      "end": 111.66
+    },
+    {
+      "word": "i",
+      "start": 112.1,
+      "end": 113.06
+    },
+    {
+      "word": "would",
+      "start": 113.06,
+      "end": 113.22
+    },
+    {
+      "word": "appreciate",
+      "start": 113.22,
+      "end": 113.7
+    },
+    {
+      "word": "it",
+      "start": 113.7,
+      "end": 114.2
+    },
+    {
+      "word": "let",
+      "start": 115.04,
+      "end": 115.14
+    },
+    {
+      "word": "me",
+      "start": 115.14,
+      "end": 115.28
+    },
+    {
+      "word": "know",
+      "start": 115.28,
+      "end": 115.44
+    },
+    {
+      "word": "if",
+      "start": 115.44,
+      "end": 115.58
+    },
+    {
+      "word": "this",
+      "start": 115.58,
+      "end": 115.74
+    },
+    {
+      "word": "works",
+      "start": 115.74,
+      "end": 115.96
+    },
+    {
+      "word": "for",
+      "start": 115.96,
+      "end": 116.16
+    },
+    {
+      "word": "you",
+      "start": 116.16,
+      "end": 116.38
+    },
+    {
+      "word": "thanks",
+      "start": 119.38,
+      "end": 120.16
+    }
+  ]
+}

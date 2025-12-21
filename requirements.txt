@@ -1,0 +1,10 @@
+django
+openai-whisper
+torch
+pymongo
+python-dotenv
+pydub
+soundfile
+numpy
+fastapi
+uvicorn
